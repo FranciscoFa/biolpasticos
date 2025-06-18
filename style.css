@@ -49,6 +49,7 @@ body {
     width: 30%;
   }
   .gallery, .tutorial {
+    align-content: center;
     padding: 2rem;
   }
   .gallery h2, .tutorial h2 {
@@ -57,7 +58,7 @@ body {
   }
   .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
   }
   .gallery-grid div, .tutorial .card {
@@ -148,3 +149,45 @@ textarea {
     height: 100px;
     resize: vertical;
 }
+
+
+.sobre-nosotros {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.sobre-nosotros h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.sobre-nosotros p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.intro {
+  text-align: center;
+  align-content: center;
+  padding: 40px 20px;
+  background: #cfead8;
+}
+.contenido {
+  text-align: center;
+  align-content: center;
+  padding: 40px 20px;
+}
+  .grid-contenido {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(625px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .grid-tutoriales {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+  }
